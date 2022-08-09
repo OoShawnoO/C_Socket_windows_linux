@@ -65,6 +65,7 @@ int main(){
                 }else if(len >0){
                     cout << "client data:"<< buf <<endl;
                     write(i,buf,sizeof(buf));
+                }
             }
         }
 
